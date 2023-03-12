@@ -1,0 +1,51 @@
+html {
+  background: rgb(186, 198, 204);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+input,
+select,
+button {
+  font-size: 18px;
+  padding: 6px;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+  grid-gap: 5px;
+  padding: 10px;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  width: 25%;
+  margin: 0 auto;
+}
+
+button {
+  border: none;
+  background: #5e5ecd;
+  color: white;
+  border-radius: 10px;
+}
+button:hover {
+  background: #9f9ff1;
+  transition: ease-in-out 0.3s;
+}
+
+#answer {
+  border: none;
+  border-radius: 5px;
+}
+
+img {
+  display: flex;
+  margin: 2% auto;
+}
+
+h1,
+p {
+  text-align: center;
+}

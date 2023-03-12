@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculater - Week 1 Lecture</title>
+    <link href="styles.css" rel="stylesheet" />
+  </head>
+  <body>
+    <h1>Calculator COSW 230</h1>
+    <p id="secretspot">You cannot read this.</p>
+    <img src="gif.webp" class="gif" alt="Gif Picture" />
+    <form>
+      <input
+        type="number"
+        name="num1"
+        id="num1"
+        min="0"
+        max="50"
+        placeholder="Enter a number"
+      />
+      <select name="operator" id="operator">
+        <option value="add">+</option>
+        <option value="subtract">-</option>
+        <option value="multiply">*</option>
+        <option value="division">/</option>
+      </select>
+      <input
+        type="number"
+        name="num2"
+        id="num2"
+        placeholder="Enter another number"
+      />
+      <button>Calculate</button>
+
+      <p>
+        Your Answer:
+        <input type="number" name="answer" id="answer" value="" readonly />
+      </p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>
